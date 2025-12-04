@@ -1,0 +1,29 @@
+# Python / env
+__pycache__/
+*.pyc
+.venv/
+.env/
+*.egg-info/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data & big artifacts (tracked elsewhere)
+data/raw/
+data/manual/
+data/masks/
+data/results/
+runs/
+
+# Models / outputs
+*.pt
+*.h5
+*.ckpt
+*.tif
+*.csv
+*.png
