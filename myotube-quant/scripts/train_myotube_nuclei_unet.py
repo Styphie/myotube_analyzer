@@ -11,7 +11,7 @@ DATA LAYOUT:
     masks_nuclei/
     masks_myotube/
 
-Example (Windows):
+Example:
   python train_myotube_nuclei_unet.py --data_root "C:/Users/you/.../myotube-quant/data" --epochs 50
 """
 

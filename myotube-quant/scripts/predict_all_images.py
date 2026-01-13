@@ -3,7 +3,7 @@ predict_all_images.py
 ---------------------
 Load a trained U-Net model and run it on *all* images in data/images/,
 compute biological metrics from the predicted masks, and save them to
-metrics_all.csv. This lets you compare directly to manual Excel
+metrics_all.csv. Can then compare directly to manual Excel
 metrics with metrics_eval.py.
 
 Usage (example):
@@ -114,3 +114,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

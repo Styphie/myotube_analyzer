@@ -1,8 +1,19 @@
+"""
+metrics_eval.py
+---------------
+Compare predicted biological metrics to manual ground truth (Excel).
+
+Predicted input: --pred_csv runs/<timestamp>/metrics_all.csv (or metrics_val.csv)
+Manual input:    --excel data/Passage.xlsx
+
+Key fix:
+  Merge on BOTH (Passage #, Well #) to avoid the "one row matches" issue.
+"""
 
 """
 metrics_eval.py
 ---------------
-Compare predicted biological metrics (from your model run) to manual ground truth.
+Compare predicted biological metrics (from the model run) to manual ground truth.
 
 Ground truth sources:
   A) Excel "Passage.xlsx"  (--excel + --passage)
@@ -140,3 +151,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -27,3 +27,4 @@ runs/
 *.tif
 *.csv
 *.png
+.idea/
